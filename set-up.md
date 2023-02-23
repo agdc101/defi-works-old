@@ -33,3 +33,4 @@
   
 7) In terminal, Run "bin/console make:controller" == makes Symfony controller so routes can be handler. Follow prompts.
   
+### run in terminal --> "symfony server:start" --> "yarn encore dev --watch".
