@@ -34,6 +34,10 @@ class EmailVerifier
 
         $email->context($context);
 
+//        error_log($email, 3, '~/var/log/error.log');
+        error_log(print_r($email, TRUE), 3, '../var/log/error.log');
+
+
         $this->mailer->send($email);
     }
 
