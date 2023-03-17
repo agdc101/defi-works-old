@@ -1,3 +1,9 @@
 framework:
     mailer:
+        envelope:
+            sender: 'admin@defiworks.co.uk'
+            recipients: [ 'agdc101@gmail.com' ]
+        headers:
+            From: 'Ashley <admin@defiworks.co.uk>'
+            X-Custom-Header: 'foobar'
         dsn: '%env(MAILER_DSN)%'
